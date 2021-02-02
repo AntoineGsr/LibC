@@ -14,13 +14,13 @@ char *my_strstr(char *str, char const *to_find)
 
     if (my_strlen(str) < my_strlen(to_find))
         return NULL;
-    for (; str[i] != '\0' && to_find[j] != '\0'; i++) {
+    for (; str[i] != '\0'; i++) {
         if (str[i] == to_find[j]) {
             j += 1;
         } else
             j = 0;
+        if (to_find[j] == '\0')
+            return (str);
     }
-    if (to_find[j] == my_strlen(to_find))
-        return (str);
     return NULL;
 }
