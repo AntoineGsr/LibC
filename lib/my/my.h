@@ -9,6 +9,7 @@
 #define MY_H_
 
 #include <stdlib.h>
+#include <stdio.h>
 #include <unistd.h>
 
 #define RESET       "\033[0m"
