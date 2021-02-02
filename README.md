@@ -8,5 +8,5 @@ To use my library you have to:
 
 If you want to modify the library or to add a new function, don't forget to make it.
 
-Make your own lib to learn the base of the C.
+PS: make your own basic C library to learn the base of the C language.
 Good luck
