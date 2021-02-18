@@ -14,7 +14,7 @@ int neg_pos(char *str)
 
     for (i; str[i] != '\0' && str[i] != '-' && str[i] != '+'
         && (str[i] < '0' || str[i] > '9'); i++);
-    for (i; str[i] != '\0' && (str[i] == '-' || str[i] == '+') 
+    for (i; str[i] != '\0' && (str[i] == '-' || str[i] == '+')
         && (str[i] < '0' || str[i] > '9'); i++)
         neg += 1;
     if (neg % 2 != 0)

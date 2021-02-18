@@ -63,5 +63,6 @@ char *my_getstr_long(long long int nb);
 char **my_memset_dchar(int size1, int size2);
 char *my_memset_char(int size);
 char **my_str_to_word_array(char *av);
+char **my_str_to_word_array_separator(char *av, char sep);
 
 #endif /* MY_H_ */
